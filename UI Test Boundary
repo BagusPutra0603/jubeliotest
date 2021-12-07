@@ -1,0 +1,616 @@
+id: 4sry_6NyIk-_gdBCbfEgIQ
+projectId: SfFV-hZWlkilYdwoHNljIw
+projectName: JubelioTest
+created: 2021-12-07T08:19:49.9056873Z
+protocol: 1
+tests:
+- id: KxGR9WD5R0OG3UYvWUe0Vw
+  name: UI Test Boundary
+  description: UI Test Boundary
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-12-07T03:33:55.0000000
+  modificationDate: 2021-12-07T08:16:28.0000000
+  settings:
+    automationAssistant: true
+    appId: 7kFoUg5u8kOzsBpPol7Aig
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: 7kFoUg5u8kOzsBpPol7Aig
+    name: UI Test Boundary
+    url: http://jubelio.com/
+    platform: Web
+  steps:
+  - id: ENbzq9Uuz0yBrGUAUVl-3Q
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Cl-Q71jKLUKrDB1uxJDoVg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: hVcEky-QQU60z_nVl7TuXA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: TuV8lelly0CpeMveyu3CfA
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: eTR-GLP4u0K4OheqR4BtPA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KhW-m-OabEGhD_mkM7uKsw
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: eTR-GLP4u0K4OheqR4BtPA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: qa.automation.jubelio@gmail.com
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: UXLiUzFUkUuHmGIYLeJ9ZQ
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: CrNYMDwrc0m-YPIMszjoTg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: __fulQCrPkGvUHwPKG7_GA
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: CrNYMDwrc0m-YPIMszjoTg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 123
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7aqeShvYHk6aObBCYcqqtQ
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: aixStyiL-0eg_Pky3t2fGQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8iedy-HrlUu8VTnGQOEfpw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Addon
+    elementId: tGBCNulbx0ymlTEpQHZ0aw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: DvmyABJEKEOo2-2rlbbNvg
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: text
+      value: Password harus di antara 6 dan 30.
+    contexts: []
+  - id: bpGNHaALIEi1OS6e-rSdsg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: CrNYMDwrc0m-YPIMszjoTg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lGSwL01NOU-pL5AmgfACRw
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: CrNYMDwrc0m-YPIMszjoTg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9ztRsCGN4EKU-XPMFJY-Uw
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: CrNYMDwrc0m-YPIMszjoTg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 12898921899128982198219898219828998129819829898982
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 35_gFZ8UsUKMhcRJM6Wvcw
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: GR0xcMeuwEWnIsNw7_SQ7g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: UL0n91lav0io-5iwTU4iXw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Addon
+    elementId: tGBCNulbx0ymlTEpQHZ0aw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: DvmyABJEKEOo2-2rlbbNvg
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: text
+      value: Password harus di antara 6 dan 30.
+    contexts: []
+  - id: hsvUJrQiAE-Nwo2kqb3iqA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: CrNYMDwrc0m-YPIMszjoTg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: r0keQTupQ0OhAfSNZ9FOrw
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: CrNYMDwrc0m-YPIMszjoTg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4CMJzT0dOUGxPCyFKUmNVA
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: CrNYMDwrc0m-YPIMszjoTg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Jubelio@1234
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: AY13uTrJi0-GJWAyMeW1Ow
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: TokrgHyxUk2gbuxBbbCPYg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tHQIN58ohUWMEO5G2lzD0g
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: Va66tnLuM0egD9cuzU55yw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: LHLD0tz19kaNuRDyBRKKCQ
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: gxbIG5O01kSzByJrF5G_Tw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: http://jubelio.com/
+    type: Input
+auxTests: []
+elements:
+- id: hVcEky-QQU60z_nVl7TuXA
+  name: LOGIN
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[7]//span[. = 'LOGIN']
+    priority: 0
+  - name: XPATH
+    value: //div[4]/ul/li[7]//span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/header/div/div[1]/div/div[4]/ul/li[7]/div/a/span
+    priority: 2
+- id: eTR-GLP4u0K4OheqR4BtPA
+  name: email
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='email']"
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[1]/div/div[2]/div/form/div[1]/div/input
+    priority: 2
+- id: CrNYMDwrc0m-YPIMszjoTg
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[1]/div/div[2]/div/form/div[2]/div/input
+    priority: 2
+- id: aixStyiL-0eg_Pky3t2fGQ
+  name: Masuk
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Masuk']
+    priority: 0
+  - name: XPATH
+    value: //button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[1]/div/div[2]/div/form/button
+    priority: 2
+- id: tGBCNulbx0ymlTEpQHZ0aw
+  name: Password harus di antara 6 dan 30.
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Password harus di antara 6 dan 30.']
+    priority: 0
+  - name: XPATH
+    value: //div/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[1]/div/div[2]/div/form/div[2]/div/span
+    priority: 2
+- id: GR0xcMeuwEWnIsNw7_SQ7g
+  name: Masuk1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Masuk']
+    priority: 0
+  - name: XPATH
+    value: //button/span[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[1]/div/div[2]/div/form/button/span[1]
+    priority: 2
+- id: TokrgHyxUk2gbuxBbbCPYg
+  name: Masuk2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Masuk']
+    priority: 0
+  - name: XPATH
+    value: //span[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[1]/div/div[2]/div/form/button/span[1]
+    priority: 2
+- id: Va66tnLuM0egD9cuzU55yw
+  name: qa.automation.jubelio@gmail.com
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'qa.automation.jubelio@gmail.com']
+    priority: 0
+  - name: XPATH
+    value: //div/li/a/span[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div[2]/div[2]/div[1]/nav/div/div/li/a/span[1]
+    priority: 2
+- id: gxbIG5O01kSzByJrF5G_Tw
+  name: Keluar
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = ' Keluar']
+    priority: 0
+  - name: XPATH
+    value: //div/li/ul/li[4]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div[2]/div[2]/div[1]/nav/div/div/li/ul/li[4]/a
+    priority: 2
+projectParameters: []
+addons:
+- id: inW2AJJ04ku45E9-RN2zqA
+  source: Store
+  version: 2.10
+  actions:
+  - id: DvmyABJEKEOo2-2rlbbNvg
+    name: Get text (if visible)
+    description: Get text from {{element}} if it's visible
+    className: io.testproject.addon.GetTextActions.GetTextIfVisibleWeb
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675
