@@ -1,7 +1,7 @@
-id: LndYF22n_k2_dwCALAqZRQ
+id: RZrNI_Zu5EeKwJGNvcDN5g
 projectId: SfFV-hZWlkilYdwoHNljIw
 projectName: JubelioTest
-created: 2022-03-04T08:49:29.8687765Z
+created: 2022-03-04T08:56:50.0691152Z
 protocol: 1
 tests:
 - id: 32NmdPPz-0CK5A0_FUrQtw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-03-04T08:41:54.0000000
-  modificationDate: 2022-03-04T08:49:17.0000000
+  modificationDate: 2022-03-04T08:56:34.0000000
   settings:
     automationAssistant: true
     appId: 2oqpWaRLQUKzfP6LFef1Eg
@@ -156,10 +156,62 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 1ijd8bFLEUWCFPdK4_SQOw
+  - id: t_FBNGtSUUCHNdf5bauvFA
+    comments: ''
     enabled: true
     invertResult: false
     order: 7
+    repeat: 1
+    type: Action
+    elementId: YpaIco7t0kaMl4wnmVxgMQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: support@jubelio.com
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: gbs_TgjVJUWBBExPaF46Zg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: YpaIco7t0kaMl4wnmVxgMQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: text
+      value: support@jubelio.com
+    contexts: []
+  - id: 1ijd8bFLEUWCFPdK4_SQOw
+    enabled: true
+    invertResult: false
+    order: 9
     repeat: 1
     type: Action
     elementId: JLrfw-59JUiJZ5ovGxvpCA
@@ -179,7 +231,7 @@ tests:
   - id: E84ReW4wyEyBsNiNlvqh2w
     enabled: true
     invertResult: false
-    order: 8
+    order: 10
     repeat: 1
     type: Action
     elementId: MgQdopdlxkuQlZvz6kxMGQ
@@ -199,7 +251,7 @@ tests:
   - id: 8zWowpvkAkqh7pchWb-Hgg
     enabled: true
     invertResult: false
-    order: 9
+    order: 11
     repeat: 1
     type: Action
     elementId: DgtgABOwsEWSy7zIc6_uGA
@@ -219,7 +271,7 @@ tests:
   - id: 8G0tvlcjjUuut67Wmz5_oA
     enabled: true
     invertResult: false
-    order: 10
+    order: 12
     repeat: 1
     type: Action
     elementId: SYuHjKtbH0ynEm253EXYfA
@@ -239,7 +291,7 @@ tests:
   - id: XJEtVVEJL0CVBhsvW2tliQ
     enabled: true
     invertResult: false
-    order: 11
+    order: 13
     repeat: 1
     type: Action
     elementId: aBVv3euGZEa3xVuyIqGBXQ
@@ -262,7 +314,7 @@ tests:
   - id: xKrf91QcBUuo_305AjN1Hg
     enabled: true
     invertResult: false
-    order: 12
+    order: 14
     repeat: 1
     type: Action
     elementId: oB_XK5ShtkOmHqKW27jkzg
@@ -282,7 +334,7 @@ tests:
   - id: IAcom6HokkCU0LchNd4Pew
     enabled: true
     invertResult: false
-    order: 13
+    order: 15
     repeat: 1
     type: Action
     settings:
@@ -307,7 +359,7 @@ tests:
   - id: aaF96yQi5EuSdt4C5t-bPg
     enabled: true
     invertResult: false
-    order: 14
+    order: 16
     repeat: 1
     type: Action
     elementId: YpaIco7t0kaMl4wnmVxgMQ
@@ -327,7 +379,7 @@ tests:
   - id: vA0UzVUNTk2njljxsmC3iQ
     enabled: true
     invertResult: false
-    order: 15
+    order: 17
     repeat: 1
     type: Action
     elementId: 82QSjkqCyk-lqiIXM8eadw
@@ -348,6 +400,10 @@ tests:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://app.jubelio.com/login
+    type: Input
+  - name: getAkun
+    description: ''
+    value: support@jubelio.com
     type: Input
 auxTests: []
 elements:
