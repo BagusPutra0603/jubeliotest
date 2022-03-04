@@ -1,7 +1,7 @@
-id: TwHuiQKrMEO0uzdg7YJmsQ
+id: PDSwN936wUa6JI5DJYzaxQ
 projectId: SfFV-hZWlkilYdwoHNljIw
 projectName: JubelioTest
-created: 2022-03-04T10:07:06.3970550Z
+created: 2022-03-04T10:19:14.3096096Z
 protocol: 1
 tests:
 - id: rOBER5_wzUauR7d7auBlKw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-07T03:52:04.0000000
-  modificationDate: 2022-03-04T10:06:31.0000000
+  modificationDate: 2022-03-04T10:08:51.0000000
   settings:
     automationAssistant: true
     appId: KNkegdQtekqy7XenywJCug
@@ -232,7 +232,7 @@ tests:
       value: Authorization=Bearer {{getToken}}
       direction: Input
     - name: expectedStatus
-      value: 200
+      value: ''
       direction: Input
     - name: jsonPath
       value: ''
