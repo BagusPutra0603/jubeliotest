@@ -79,13 +79,6 @@ tests:
       direction: Input
     - name: body
       value: >-
-        {
-
-        "email": "support@jubelio.com",
-
-        "password": "hkQ4XW27XKLFK2!"
-
-        }
       direction: Input
     - name: format
       value: ''
